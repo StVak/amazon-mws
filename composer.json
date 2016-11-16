@@ -19,7 +19,7 @@
 	},
 	"autoload": {
 			"psr-4": {
-				"MwsProducts\\": "src/MwsProducts",
+				"AmazonMws\\Products\\": "src/MwsProducts",
 	    }
 	}
 }
