@@ -1,25 +1,26 @@
 {
-	"name": "stvak/amazon-mws",
-	"description": "Amazon MWS API Composer package",
-	"license": "Apache-2.0",
-	"keywords": [
-		"amazon",
-		"mws",
-		"api"
-	],
-	"homepage": "https://github.com/StVak/amazon-mws",
-	"authors": [
-		{
-			"name": "Stefanos Stvakis",
-			"homepage": "http://www.stvakis.com"
-		}
-	],
-	"require": {
-		"php": ">=5.3.3"
-	},
-	"autoload": {
-			"psr-4": {
-				"AmazonMws\\Products\\": "src/MwsProducts"
-	    }
-	}
+    "name": "stvak/amazon-mws",
+    "description": "Amazon MWS API Composer package",
+    "license": "Apache-2.0",
+    "keywords": [
+        "amazon",
+        "mws",
+        "api"
+    ],
+    "homepage": "https://github.com/StVak/amazon-mws",
+    "authors": [
+        {
+            "name": "Stefanos Stvakis",
+            "email": "stvakis@gmail.com",
+            "homepage": "http://www.stvakis.com"
+        }
+    ],
+    "require": {
+        "php": ">=5.3.3"
+    },
+    "autoload": {
+        "classmap": [
+            "src/"
+        ]
+    }
 }
